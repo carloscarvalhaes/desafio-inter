@@ -1,6 +1,4 @@
 import 'package:banco_inter_desafio/login.dart';
-import 'package:banco_inter_desafio/loginpage.dart';
-import 'package:banco_inter_desafio/tela.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +14,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: LoginPage(),
+      home: Login(),
     );
   }
 }
